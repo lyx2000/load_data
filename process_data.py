@@ -29,7 +29,7 @@ print(len(df))
 
 # Ensure you have your API key set in your environment per the README: https://github.com/openai/openai-python#usage
 def my_function(x):
-    time.sleep(1) 
+    time.sleep(10) 
     get_embedding(x, engine='text-embedding-ada-002')
 
 
